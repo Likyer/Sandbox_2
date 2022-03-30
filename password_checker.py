@@ -3,13 +3,14 @@ Description: A simple Password checker
 
 Name:LIU YUHAO
 """
-
 def main():
     input_pass = get_password()
     print_asterisk(input_pass)
 
+
 def print_asterisk(input_pass):
     print(len(input_pass) * '*')
+
 
 def get_password():
     input_pass = input('Type Password: ')
