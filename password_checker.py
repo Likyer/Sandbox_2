@@ -4,21 +4,21 @@ Description: A simple Password checker
 Name:LIU YUHAO
 """
 
-
-def is_vaild_password(text):
-    """Check whether a given text has the correct password format"""
-    return 8 <= len(text) <= 20
-
-
-def is_valid_password(new_password):
-    pass
-
-
 def main():
-    """Start program"""
-    new_password = "helloworld"
-    print(f"{new_password} is a valid password?{is_valid_password(new_password)}")
+    input_pass = get_password()
+    print_asterisk(input_pass)
+
+def print_asterisk(input_pass):
+    print(len(input_pass) * '*')
+
+def get_password():
+    input_pass = input('Type Password: ')
+    while len(input_pass) <= 1:
+        input_pass = input('Type Password: ')
+    return input_pass
+
+main()
 
 
-if __name__ == '__main__':
-    main()
+
+
