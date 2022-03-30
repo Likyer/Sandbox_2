@@ -18,7 +18,3 @@ def get_password():
     return input_pass
 
 main()
-
-
-
-
