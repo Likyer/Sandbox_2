@@ -1,3 +1,8 @@
+"""
+CP-1404 Practical
+Name:LIU YUHAO
+"""
+
 FILENAME = "subject_reader.txt"
 
 
