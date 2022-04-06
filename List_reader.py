@@ -1,3 +1,8 @@
+"""
+CP-1404 Practical
+Name:LIU YUHAO
+"""
+
 numbers = []
 for i in range(5):
     number = int(input("Number: "))
