@@ -1,3 +1,8 @@
+"""
+CP-1404 Practical
+Name:LIU YUHAO
+"""
+
 def main():
     """Display income report for incomes over a given number of months."""
     incomes = []
